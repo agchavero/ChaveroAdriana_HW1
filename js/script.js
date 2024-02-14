@@ -27,17 +27,17 @@ let cereals = [
     
     function displayImage(){
         //retrieve element by ID
-        // let displayCereal = document.getElementById('breakfastImg');
+        let displayCereal = document.getElementById('breakfastImg');
     
         //generate random index
         let randomIndex = Math.floor(Math.random() * cereals.length);
         console.log(randomIndex);
        
         //display randomly selected image from array 
-        // displayCereal.src = cereals[randomIndex];
+        displayCereal.src = cereals[randomIndex];
     
        
-    document.getElementById('breakfastImg').src = cereals[randomIndex];
+    // document.getElementById('breakfastImg').src = cereals[randomIndex];
     
     }
     
